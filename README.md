@@ -32,5 +32,5 @@
 
 <!-- Made with Love -->
 
-### Made with <span style="color: #e25555;">&#9829;</span> by Anubhav Srivastava
+### Made for <span style="color: #e25555;">&#9829;</span> Course vita Hackathon
 
