@@ -1,29 +1,7 @@
 <!-- Header Image -->
-<br />
-<p align="center">
-  <img src="https://socialify.git.ci/AnubhavSrivastavaGithub/gh_analyzer/image?font=Bitter&forks=1&issues=1&language=1&name=1&owner=1&pattern=Charlie%20Brown&pulls=1&stargazers=1&theme=Dark" alt="gh_analyzer" width="640" height="320" />
 
   <h1 align="center">Profile Analyzer</h1>
 </p>
-
-<!-- TABLE OF CONTENTS -->
-<details open="open">
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#key-features">Key Features</a>
-    </li>
-    <li><a href="#screenshots">Screenshots</a></li>
-  </ol>
-</details>
-
-<!-- ABOUT THE PROJECT -->
 
 ## About The Project
 
