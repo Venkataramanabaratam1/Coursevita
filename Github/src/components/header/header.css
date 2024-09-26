@@ -1,0 +1,41 @@
+header {
+  background-color: rgba(255, 255, 255, 0.9); /* White background with transparency */
+  padding: 1rem 2rem; /* Increased padding for a better layout */
+  height: auto; /* Allow height to adjust based on content */
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Center items vertically */
+  justify-content: space-between; /* Space between title and other elements */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.title {
+  color: #007bff; /* Blue color for the title */
+  font-size: 1.5rem; /* Increased font size for better visibility */
+  text-align: left;
+  margin: 0; /* Remove margin to align with padding */
+}
+
+.header-li {
+  color: #007bff; /* Change to blue for uniformity */
+  display: inline;
+  padding-right: 2rem;
+  font-weight: bold; /* Make items bold */
+}
+
+header img {
+  width: 40px;
+  height: 40px;
+}
+
+.Headerlink {
+  text-decoration: none;
+  color: #007bff; /* Blue link color */
+  font-weight: bold; /* Make the link bold */
+}
+
+.Headerlink:hover {
+  background-color: #007bff; /* Change to blue on hover */
+  color: white; /* Change text color to white on hover */
+  padding: 0.3rem; /* Add padding for hover effect */
+  border-radius: 4px; /* Rounded corners on hover */
+}

@@ -1,0 +1,133 @@
+/* Profile Section Styling */
+.profile-section {
+  background-color: rgba(255, 255, 255, 0.8); /* Slightly opaque white background */
+  color: #333; /* Darker text for readability */
+  width: 85%;
+  text-align: center;
+  margin: auto;
+  border-radius: 10px;
+  padding: 1rem 2rem;
+  margin-bottom: 2rem;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Softer shadow for a cleaner look */
+  font-family: 'Arial', sans-serif; /* Modern sans-serif font */
+}
+
+.profile-info-title {
+  background: linear-gradient(to right, #6a11cb, #2575fc); /* Modern gradient */
+  border-radius: 8px;
+  width: 100%;
+  margin: auto;
+  color: white; /* White text for contrast */
+}
+
+h2 {
+  padding: 0.5rem;
+  font-size: 1.8rem; /* Increase font size */
+  font-weight: 500; /* Slightly bolder for titles */
+}
+
+.avatar-pic {
+  border-radius: 50%;
+  width: 8rem; /* Slightly smaller for a more balanced look */
+  height: 8rem;
+  border: 4px solid #6a11cb; /* Border matches gradient */
+  margin: 1rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+}
+
+.profile-general {
+  display: flex;
+  flex-wrap: wrap; /* Responsive layout */
+  justify-content: space-between;
+  padding: 1.5rem 0;
+  gap: 1rem; /* Add space between sections */
+}
+
+.profile-text, .profile-text2 {
+  flex: 1;
+  min-width: 250px; /* Ensure columns don't shrink too much */
+  margin: 0 1rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #f9f9f9; /* Light background for contrast */
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); /* Soft shadow */
+  text-align: left;
+}
+
+.profile-text h3, .profile-text2 h3 {
+  margin: 1rem 0;
+  padding: 0.5rem;
+  font-size: 1.1rem;
+  color: #444; /* Darker text for better contrast */
+}
+
+.even, .odd {
+  background-color: transparent; /* Remove alternating background colors */
+}
+
+h3 img {
+  width: 20px;
+  height: 20px;
+  margin-right: 0.5rem;
+  vertical-align: middle;
+}
+
+a {
+  color: #007bff; /* Blue link color */
+  text-decoration: none;
+  font-weight: 500;
+}
+
+a:hover {
+  color: #0056b3; /* Darker blue on hover */
+  text-decoration: underline;
+}
+
+/* Even/Odd h3 adjustments */
+.top-element, .bottom-element {
+  padding: 1rem;
+}
+
+.top-element {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #f1f1f1;
+}
+
+.bottom-element {
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  background-color: #f1f1f1;
+}
+
+/* Styling for alternating rows */
+.even {
+  background-color: #e6e6e6; /* Light gray for even rows */
+}
+
+.odd {
+  background-color: #ffffff; /* White for odd rows */
+}
+
+.recent-activities {
+  margin-top: 0;
+  border-radius: 8px;
+  width: 100%;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .profile-general {
+    flex-direction: column; /* Stack vertically on smaller screens */
+    align-items: center;
+  }
+
+  .profile-text, .profile-text2 {
+    width: 100%; /* Full width on small screens */
+  }
+
+  .avatar-pic {
+    width: 6rem;
+    height: 6rem;
+  }
+}
