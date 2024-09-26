@@ -3,14 +3,7 @@
 <p align="center">
   <img src="https://socialify.git.ci/AnubhavSrivastavaGithub/gh_analyzer/image?font=Bitter&forks=1&issues=1&language=1&name=1&owner=1&pattern=Charlie%20Brown&pulls=1&stargazers=1&theme=Dark" alt="gh_analyzer" width="640" height="320" />
 
-  <h1 align="center">Github Profile Analyzer</h1>
-
-  <h3 align="center">
-    Simple Easy to Use Website to analyze your friend's Github Profile
-    <br />
-    <br />
-    <a href="https://github.com/AnubhavSrivastavaGithub/gh_analyzer/issues">Request Feature</a>
-  </h3>
+  <h1 align="center">Profile Analyzer</h1>
 </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -56,10 +49,6 @@
 <!-- Screenshots -->
 
 ## Screenshots
-![image](https://user-images.githubusercontent.com/50038824/158022685-dd2ca810-417a-40c4-b64d-4ea8199790ba.png)
-![image](https://user-images.githubusercontent.com/50038824/158022324-1abe152a-08db-4df6-bea8-9880140a2094.png)
-![image](https://user-images.githubusercontent.com/50038824/158022332-a3b23724-d62e-478e-ac77-2d765e399310.png)
-![image](https://user-images.githubusercontent.com/50038824/158022336-4a3060b0-68b6-47d6-a622-9614f66f9216.png)
 
 
 
