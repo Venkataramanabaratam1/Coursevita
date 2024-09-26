@@ -1,0 +1,140 @@
+/* Body styles */
+.parent-div {
+  width: 50%;
+  height: auto;
+  padding: 2rem;
+  margin: 3rem auto;
+  background-color: rgba(34, 34, 34, 0.9); /* A deeper black for elegance */
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* Slightly larger shadow for depth */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.parent-div:hover {
+  transform: translateY(-5px); /* Slightly more noticeable hover effect */
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4); /* A deeper shadow on hover */
+}
+
+#su-title {
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif; /* Clean, modern font */
+  color: #FFD700;
+  letter-spacing: 1px; /* Slight letter spacing for elegance */
+}
+
+#su-input {
+  width: 75%;
+  height: 2.8rem;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  background-color: rgba(255, 255, 255, 0.95); /* More opaque background */
+  border: 2px solid #444; /* Softer border color */
+  border-radius: 8px; /* Smooth, modern rounded corners */
+  font-size: 1rem;
+  color: #333;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for input */
+  font-family: 'Roboto', sans-serif; /* A modern, readable font */
+}
+
+#su-input:focus {
+  border-color: #FFD700; /* Subtle highlight on focus */
+  box-shadow: 0 0 8px rgba(255, 215, 0, 0.5); /* Add glowing effect when focused */
+  outline: none;
+}
+
+.search {
+  color: white;
+  font-size: 1rem;
+  font-weight: bold;
+  background-color: #663399; /* A more vibrant purple */
+  height: 2.8rem;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease, box-shadow 0.3s ease;
+  font-family: 'Roboto', sans-serif;
+}
+
+.search:hover {
+  background-color: #7b47d9; /* A lighter, more engaging purple on hover */
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(123, 71, 217, 0.5); /* Add a shadow on hover */
+}
+
+.errormsg {
+  background-color: rgba(255, 0, 0, 0.1); /* Subtle red tint for errors */
+  width: 50%;
+  margin: 1rem auto;
+  padding: 1rem;
+  border-radius: 8px;
+  color: red;
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Initial, .ErrState {
+  width: 50%;
+  background-color: rgba(0, 0, 0, 0.85); /* A slightly softer black */
+  color: #e0e0e0; /* A softer text color for readability */
+  margin: 1rem auto;
+  padding: 1.5rem;
+  border-radius: 15px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3); /* More pronounced shadow */
+}
+
+.ErrState h2 {
+  margin: 0;
+  color: orange;
+  font-size: 1.4rem;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.ProfContent {
+  margin-top: 2rem;
+  color: #e0e0e0;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+}
+
+.ProfContent h2 {
+  font-size: 1.6rem;
+  margin: 0.5rem 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.ProfStatistics, .RecentActions {
+  background-color: rgba(0, 0, 0, 0.85); /* Uniform background for sections */
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin-top: 1rem;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  font-family: 'Roboto', sans-serif;
+  color: #e0e0e0;
+}
+
+/* Add media query for responsiveness */
+@media (max-width: 768px) {
+  .parent-div {
+    width: 90%;
+  }
+
+  #su-input {
+    width: 100%;
+    margin-bottom: 1rem; /* Adjusted for smaller screens */
+  }
+
+  .search {
+    width: 100%;
+  }
+}
